@@ -275,10 +275,7 @@ export default function App() {
             <div style={{ color: "#64748b" }}>Approvate</div>
             <div style={{ fontSize: 32, fontWeight: 700 }}>{requests.filter((r) => r.status === "Approvata").length}</div>
           </div>
-          <div style={{ background: "white", borderRadius: 16, padding: 16 }}>
-            <div style={{ color: "#64748b" }}>Ruolo</div>
-            <div style={{ fontSize: 24, fontWeight: 700 }}>{user?.role}</div>
-          </div>
+          
         </div>
 
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
