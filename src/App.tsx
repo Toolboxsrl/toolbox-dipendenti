@@ -260,7 +260,13 @@ export default function App() {
           </div>
         </div>
 
-        <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}>
+        <div style={{ 
+  display: "grid", 
+  gap: 16, 
+  gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+  maxWidth: 900,
+  margin: "0 auto"
+}}>
           <div style={{ background: "white", borderRadius: 16, padding: 16 }}>
             <strong>{user?.name}</strong>
             <div style={{ marginTop: 6, color: "#64748b" }}>
